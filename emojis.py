@@ -29,7 +29,7 @@ def has_emoji(s):
         if is_emoji(s[len(s) - i - 1]): return True
 
     if len(s) % 2 > 0:
-        return is_emoji(s[int(len(s) / 2) + 1])
+        return is_emoji(s[int(len(s) / 2)])
 
     return False
 
